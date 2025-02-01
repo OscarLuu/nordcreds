@@ -1,0 +1,9 @@
+services:
+  nordcreds:
+    image: "nordcreds"
+    cap_add:
+      - NET_ADMIN
+    sysctls: 
+      - net.ipv6.conf.all.disable_ipv6=0
+    environment:
+      - ACCESS_TOKEN=${NORD_ACCESS_TOKEN}
