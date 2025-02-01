@@ -4,6 +4,8 @@
 
 FROM ubuntu:24.04
 
+LABEL version="1.0.0"
+
 RUN apt-get update && \
     apt-get install -y curl && \
     apt-get install -y wireguard && \ 
