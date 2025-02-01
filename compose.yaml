@@ -1,6 +1,6 @@
 services:
   nordcreds:
-    image: "nordcreds"
+    image: "oscarluu/nordcreds:1.0.0"
     cap_add:
       - NET_ADMIN
     sysctls: 
