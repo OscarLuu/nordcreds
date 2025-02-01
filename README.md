@@ -1,7 +1,11 @@
 # nordcreds
 Simple Docker container that fetches public and private Keys from NordVPN w/ Wireguard.
 
+[Docker Hub ](https://hub.docker.com/r/oscarluu/nordcreds)
+
 ## Problem
+
+Stemmed from discussion: https://github.com/qdm12/gluetun-wiki/issues/15
 
 In trying to start my NordVPN network container with Wireguard, it required a private key that was only attainable in a Linux VM.
 I wanted an easier way to retrieve these credentials without having to create a Linux VM and thought using a script in a Ubuntu container 
